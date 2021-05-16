@@ -63,3 +63,8 @@ if(document.all)
 else
   window.addEventListener("load",_onload,false);
 })();
+
+//autoplay
+window.onload=function(){
+document.getElementById("don").click(); 
+}
