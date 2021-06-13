@@ -49,12 +49,6 @@ var _onload = function() {
     }
   };
 
-  // This is a reimplementation according to my math derivation on the page
-  var R1 = 1;
-  var R2 = 2;
-  var K1 = 150;
-  var K2 = 5;
-
   asciiframe();
 }
 
