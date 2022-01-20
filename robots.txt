@@ -3,4 +3,4 @@
 
 User-agent: *
 #-- Unwanted Directories & URL Paths --#
-Disallow: https://jsonplaceholder.typicode.com/posts
+Disallow: /js/testpost.js
