@@ -12,7 +12,7 @@ fetch('https://jsonplaceholder.typicode.com/posts', { method: 'GET', headers: { 
         x[0].appendChild(title);
         for (index = 0; index < data.length; index++) {
             var e = document.createElement('div');
-            e.innerHTML = '' + i + '   ' + data[index].title;
+            e.innerHTML = '' + index + '   ' + data[index].title;
             x[0].appendChild(e);
         }
     }).catch(e => {
