@@ -7,12 +7,13 @@ fetch('https://jsonplaceholder.typicode.com/posts', { method: 'GET', headers: { 
   
     }).then(data => {
         var x = document.getElementsByClassName('motto');
-        for (index = 0; index < data.length; index++) {
-            var e = document.createElement('div');
-            e.innerHTML = data[index].title;
-            x[0].appendChild(e);
+        for (index = 0; index < 10; index++) {
+            var link = document.createElement('a');
+            link.setAttribute('href', 'https://www.google.com');
+            link.textContent = data[index].title;
+            x[0].appendChild(link);
 
         }
     }).catch(e => {
-        console.log(e);
+        console.log(a);
     })
