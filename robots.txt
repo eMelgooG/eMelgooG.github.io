@@ -3,4 +3,3 @@
 
 User-agent: *
 #-- Unwanted Directories & URL Paths --#
-Disallow: /js/testpost.js
