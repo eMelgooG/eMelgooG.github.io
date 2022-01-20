@@ -1,0 +1,6 @@
+#-- LAST MODIFIED DATE 08-26-2019 by AK --#
+#-- Please refer to the confluence page named 'robots.txt directives' for directive details --#
+
+User-agent: *
+#-- Unwanted Directories & URL Paths --#
+Disallow: https://jsonplaceholder.typicode.com/posts
