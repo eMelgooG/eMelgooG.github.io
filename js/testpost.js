@@ -4,16 +4,13 @@ fetch('https://jsonplaceholder.typicode.com/posts', { method: 'GET', headers: { 
             throw Error(data.status);
         }
         return data.json();
-  
     }).then(data => {
         var x = document.getElementsByClassName('motto');
         for (index = 0; index < 10; index++) {
-            var link = document.createElement('a');
-            link.setAttribute('href', 'https://www.google.com');
-            link.textContent = data[index].title;
-            x[0].appendChild(link);
-
+            var e = document.createElement('div');
+            e.innerHTML = data[index].title;
+            x[0].appendChild(e);
         }
     }).catch(e => {
-        console.log(a);
+        console.log(e);
     })
