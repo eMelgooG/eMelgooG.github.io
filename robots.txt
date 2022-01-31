@@ -3,3 +3,5 @@
 
 User-agent: *
 #-- Unwanted Directories & URL Paths --#
+User-agent: Googlebot
+Disallow: /testpost.js
