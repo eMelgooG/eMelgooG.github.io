@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="One of the main goals of scoping an API security engagement is to discover
+the quantity of work you’ll have to do as part of your test.">
+<title>Which API Features You Should Test</title>
+</head>
+<body>
+
+<h1>API Security engagement</h1>
+
+<p>One of the main goals of scoping an API security engagement is to discover
+the quantity of work you’ll have to do as part of your test. As such, you must
+find out how many unique API endpoints, methods, versions, features,
+authentication and authorization mechanisms, and privilege levels you’ll
+need to test. The magnitude of the testing can be determined through
+interviews with the client, a review of the relevant API documentation, and
+access to API collections. Once you have the requested information, you
+should be able to gauge how many hours it will take to effectively test the
+client’s APIs.</p>
+  <h2>API Authenticated Testing</h2>
+  <div><p>Determine how the client wants to handle the testing of authenticated and
+unauthenticated users. The client may want to have you test different API
+users and roles to see if there are vulnerabilities present in any of the dif-
+ferent privilege levels. The client may also want you to test a process they
+use for authentication and the authorization of users. When it comes to API weaknesses, many of the detrimental vulnerabilities are discovered
+in authentication and authorization. In a black box situation, you would
+need to figure out the target’s authentication process and seek to become
+authenticated.</p></div>
+<h2>Web Application Firewalls</h2>
+  <div><p>n a white box engagement, you will want to be aware of any web applica-
+tion firewalls (WAFs) that may be in use. A WAF is a common defense mech-
+anism for web applications and APIs. A WAF is a device that controls the
+network traffic that reaches the API. If a WAF has been set up properly, you
+will find out quickly during testing when access to the API is lost after per-
+forming a simple scan. WAFs can be great at limiting unexpected requests
+and stopping an API security test in its tracks. An effective WAF will detect
+the frequency of requests or request failures and ban your testing device.
+In gray box and white box engagements, the client will likely reveal the
+WAF to you, at which point you will have some decisions to make. While
+opinions diverge on whether organizations should relax security for the
+sake of making testing more effective, a layered cybersecurity defense is key
+to effectively protecting organizations. In other words, no one should put
+all their eggs into the WAF basket. Given enough time, a persistent attacker
+could learn the boundaries of the WAF, figure out how to bypass it, or use a
+zero-day vulnerability that renders it irrelevant.
+Ideally, the client would allow your attacking IP address to bypass the
+WAF or adjust their typical level of boundary security so that you can test
+the security controls that will be exposed to their API consumers. As dis-
+cussed earlier, making plans and decisions like this is really about threat
+modeling. The best tests of an API will be those that align with actual
+threats to the API provider. To get a test that provides the most value to the
+security of the API, it is ideal to map out the probable adversary and their
+hacking techniques. Otherwise, you’ll find yourself testing the effectiveness
+of the API provider’s WAF rather than the effectiveness of their API security
+controls.</p></div>
+</body>
+</html>

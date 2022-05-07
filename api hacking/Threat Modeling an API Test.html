@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Threat modeling, the process used to map out the threats to an API provider.">
+<title>Threat Modeling an API Test</title>
+</head>
+<body>
+
+<h1>Threat Modeling</h1>
+
+<p>Threat modeling is the process used to map out the threats to an API provider.
+If you model an API penetration test based on a relevant threat, you’ll be
+able to choose tools and techniques directed at that attack. The best tests of
+an API will be those that align with actual threats to the API provider.
+A threat actor is the adversary or attacker of the API. The adversary can
+be anyone, from a member of the public who stumbles upon the API with
+little to no knowledge of the application to a customer using the applica-
+tion, a rogue business partner, or an insider who knows quite a bit about
+the application. To perform a test that provides the most value to the secu-
+rity of the API, it is ideal to map out the probable adversary as well as their
+hacking techniques.</p>
+<p>Your testing method should follow directly from the threat actor’s
+perspective, as this perspective should determine the information you are given about your target. If the threat actor knows nothing about the API,
+they will need to perform research to determine the ways in which they
+might target the application. However, a rogue business partner or insider
+threat may know quite a bit about the application already without any
+reconnaissance. To address these distinctions, there are three basic pen-
+etration testing approaches: black box, gray box, and white box.</p>
+  <h2>Bug Bounty</h2>
+  <div><p>Bug bounty programs often fall somewhere on the spectrum between
+black box and gray box testing. A bug bounty program is an engagement
+where a company allows hackers to test its web applications for vulnerabili-
+ties, and successful findings result in the host company providing a bounty
+payment to the finder. Bug bounties aren’t entirely “black box” because
+the bounty hunter is provided with approved targets, targets that are out
+of scope, types of vulnerabilities that are rewarded, and allowed types
+of attacks. With these restrictions in place, bug bounty hunters are only
+limited by their own resources, so they decide how much time is spent on
+reconnaissance in comparison to other techniques. If you are interested in
+learning more about bug bounty hunting, I highly recommend Vickie Li’s
+Bug Bounty Bootcamp https://nostarch.com/bug-bounty-bootcamp</p>
+<p>In a white box approach, the client discloses as much information as
+possible about the inner workings of their environment. In addition to
+the information provided for gray box testing, this might include access to
+application source code, design information, the software development kit
+(SDK) used to develop the application, and more. White box testing models
+the threat of an inside attacker—someone who knows the inner workings of
+the organization and has access to the actual source code. The more infor-
+mation you are provided in a white box engagement, the more thoroughly
+the target will be tested.</p></div>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Cloud providers are taking a favorable stance toward APIs penetration testing activities.">
+<title>Security Testing Cloud APIs</title>
+</head>
+<body>
+
+<h1>Security Testing Cloud APIs</h1>
+
+<p>Modern web applications are often hosted in the cloud. When you attack
+a cloud-hosted web application, you’re actually attacking the physical serv-
+ers of cloud providers (likely Amazon, Google, or Microsoft). Each cloud
+provider has its own set of penetration testing terms and services that you’ll
+want to become familiar with. As of 2021, cloud providers have generally
+become friendlier toward penetration testers, and far fewer of them require
+authorization submissions. Still, some cloud-hosted web applications and
+APIs will require you to obtain penetration testing authorization, such as
+for an organization’s Salesforce APIs. You should always know the current requirements of the target cloud
+provider before attacking. The following list describes the policies of the
+most common providers.</p>
+<p>Amazon Web Services (AWS) AWS has greatly improved its stance
+on penetration testing. As of this writing, AWS allows its customers to
+perform all sorts of security testing, with the exception of DNS zone
+walking, DoS or DDoS attacks, simulated DoS or DDoS attacks, port
+flooding, protocol flooding, and request flooding. For any exceptions
+to this, you must email AWS and request permission to conduct testing.
+If you are requesting an exception, make sure to include your testing
+dates, any accounts and assets involved, your phone number, and a
+description of your proposed attack.
+Google Cloud Platform (GCP) Google simply states that you do not
+need to request permission or notify the company to perform penetra-
+tion testing. However, Google also states that you must remain compli-
+ant with its acceptable use policy (AUP) and terms of service (TOS)
+and stay within your authorized scope. The AUP and TOS prohibit ille-
+gal actions, phishing, spam, distributing malicious or destructive files
+(such as viruses, worms, and Trojan horses), and interruption to GCP
+services.
+Microsoft Azure Microsoft takes the hacker-friendly approach and
+does not require you to notify the company before testing. In addition,
+it has a “Penetration Testing Rules of Engagement” page that spells
+out exactly what sort of penetration testing is permitted https://www
+.microsoft.com/en-us/msrc/pentest-rules-of-engagement</p>
+<p>At least for now, cloud providers are taking a favorable stance toward
+penetration testing activities. As long as you stay up-to-date with the pro-
+vider’s terms, you should be operating legally if you only test targets you are
+authorized to hack and avoid attacks that could cause an interruption to
+services.</p>
+</body>
+</html>

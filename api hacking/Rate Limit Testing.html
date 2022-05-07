@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="If insufficient security controls are in place to limit access to an API,
+the API provider will lose money from consumers cheating the system.">
+<title>Rate Limit Testing</title>
+</head>
+<body>
+
+<h1>Rate Limit Testing</h1>
+
+<p>Rate limiting is a restriction on the number of requests an API consumer
+can make within a given time frame. It is enforced by an API provider’s web
+servers, firewall, or web application firewall and serves two important pur-
+poses for API providers: it allows for the monetization of APIs and prevents
+the overconsumption of the provider’s resources. Because rate limiting is an
+essential factor that allows organizations to monetize their APIs, you should
+include it in your scope during API engagements.</p>
+<p>For example, a business might allow a free-tier API user to make one
+request per hour. Once that request is made, the consumer would be kept
+from making any other request for an hour. However, if the user pays this
+business a fee, they could make hundreds of requests per hour. Without
+adequate controls in place, these non-paying API consumers could find
+ways to skip the toll and consume as much data as often as they please.</p>
+<p>Rate limit testing is not the same as denial of service (DoS) testing. DoS
+testing consists of attacks that are intended to disrupt services and make the
+systems and applications unavailable to users. Whereas DoS testing is meant
+to assess how resilient an organization’s computing resources are, rate
+limit testing seeks to bypass restrictions that limit the quantity of requests
+sent within a given time frame. Attempting to bypass rate limiting will not
+necessarily cause a disruption to services. Instead, bypassing rate limiting
+could aid in other attacks and demonstrate a weakness in an organization’s
+method of monetizing its API.</p>
+</body>
+</html>
